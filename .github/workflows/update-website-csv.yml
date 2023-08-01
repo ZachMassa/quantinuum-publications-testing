@@ -4,8 +4,8 @@ name: update-website-csv
 
 on:
   pull_request_target:
-    types: [opened, reopened]
-
+    branches:
+      - main 
 jobs:
   build:
     runs-on: ubuntu-latest
